@@ -43,7 +43,7 @@ try {
             header("Location: ../public/dashboard.php");
         }else{
             // this is where we say that file type is incorrect and throw an exception!
-            throw new Exception("FILE TYPE REJECTED!");
+            exit("FILE TYPE REJECTED!");
         }
  /* ---------------------------------------------------END OF INPUT VALIDATION FOR FILE #3------------------------------------ */
     
